@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		Scanner in = new Scanner(System.in);
+		int bjt; 
+		bjt = in.nextInt();
+		if (bjt >= 800){
+			bjt = bjt - 800;
+		} else {
+			bjt = bjt + 1600;
+		}
+//		if (bjt < 10){
+//			System.out.print(0);
+//		}
+		System.out.println(bjt);
+	}
+
+}
